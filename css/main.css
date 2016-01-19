@@ -63,6 +63,7 @@ html {
 
 .hand-hour {
   animation: spin-hour 12s linear infinite;
+  transform-origin: bottom;
 }
 
 
@@ -78,4 +79,5 @@ html {
 
 .hand-minute {
   animation: spin-minute 1s linear infinite;
+  transform-origin: bottom;
 }
