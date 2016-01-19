@@ -40,9 +40,9 @@ html {
 
 .hand-hour {
  position: absolute;
-  left: 145px;
+  left: 140px;
   top: 100px;
-
+  transform-origin: center bottom;
   animation: hour 3000ms linear infinite;
 }
 
@@ -54,14 +54,15 @@ html {
 
 .hand-minute {
  position: absolute;
-  left: 145px;
+  left: 140px;
   top: 70px;
-
+  transform-origin: center bottom;
   animation: minute 1500ms linear infinite;
 }
 
 @keyframes minute {
   0% {
     transform: rotate(360deg)
+
   }
 }
