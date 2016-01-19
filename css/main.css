@@ -42,10 +42,26 @@ html {
  position: absolute;
   left: 145px;
   top: 100px;
+
+  animation: hour 3000ms linear infinite;
+}
+
+@keyframes hour {
+  0% {
+    transform: rotate(360deg)
+  }
 }
 
 .hand-minute {
  position: absolute;
   left: 145px;
   top: 70px;
+
+  animation: minute 1500ms linear infinite;
+}
+
+@keyframes minute {
+  0% {
+    transform: rotate(360deg)
+  }
 }
