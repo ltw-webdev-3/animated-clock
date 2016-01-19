@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  background-color: #000;
+  background-color: #e2e2e2;
 }
 
 *, *::before, *::after {
@@ -35,12 +35,17 @@ html {
 
 .hand {
   width: 14px;
+
 }
 
 .hand-hour {
-
+ position: absolute;
+  left: 145px;
+  top: 100px;
 }
 
 .hand-minute {
-
+ position: absolute;
+  left: 145px;
+  top: 70px;
 }
