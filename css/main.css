@@ -28,16 +28,50 @@ html {
 
 .center {
   width: 28px;
+  position: absolute;
+  left: calc(50% - 14px);
+  top: 186px;
 }
 
 .hand {
   width: 14px;
+
 }
 
 .hand-hour {
-
+  position: absolute;
+  left: calc(50% - 7px);
+  top: 140px;
+  animation: spin-hour 12s linear infinite;
+  transform-origin: bottom;
 }
 
 .hand-minute {
+  position: absolute;
+  left: calc(50% - 7px);
+  top: 120px;
+  animation: spin-minute 1s linear infinite;
+  transform-origin: bottom;
+}
 
+@keyframes spin-hour {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-minute {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
