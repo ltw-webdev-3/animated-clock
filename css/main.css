@@ -30,7 +30,7 @@ html {
   width: 28px;
   position: absolute;
   left: 135px;
-  top: 135px
+  top: 135px;
 }
 
 .hand {
@@ -47,8 +47,9 @@ html {
 }
 
 @keyframes hour {
+
   0% {
-    transform: rotate(-360deg)
+    transform: rotate(-360deg);
   }
 }
 
@@ -61,6 +62,7 @@ html {
 }
 
 @keyframes minute {
+
   0% {
     transform: rotate(-360deg)
 
