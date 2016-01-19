@@ -49,5 +49,33 @@ html {
   position: absolute;
   top: 13%;
   left: calc(50% - 7px);
+}
 
+@keyframes spin-hour {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hand-hour {
+  animation: spin-hour 12s linear infinite;
+}
+
+
+@keyframes spin-minute {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hand-minute {
+  animation: spin-minute 1s linear infinite;
 }
