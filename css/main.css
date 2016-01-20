@@ -43,47 +43,19 @@ html {
 }
 
 .hand-hour {
-  animation: spin 5s linear;
+  animation: spin 10s linear infinite;
+  transform-origin: center 10px;
 }
 
 .hand-minute {
+  animation: spin 5s linear infinite;
+  transform-origin: center 10px;
 }
 
 @keyframes spin {
 
-  from {
+  100% {
     transform: rotate(360deg);
-  }
-
-  to {
-    transfor: rotate(360deg);
-  }
-
-}
-
-
-/**
-.hand {
-  width: 14px;
-}
-
-.hand-hour {
-  transform: translate(143px, 80px);
-  animation: spin 1s linear;
-}
-
-.hand-minute {
-  transform: translate(125px, 80px);
-}
-
-@keyframes spin {
-
-  from {
-    transform: rotate(360deg);
-  }
-
-  to {
-    transfor: rotate(360deg);
   }
 
 }
