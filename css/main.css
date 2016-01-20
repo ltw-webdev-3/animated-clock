@@ -24,10 +24,16 @@ html {
   width: 300px;
 
   background: transparent url("../images/clock-face.svg") no-repeat center center;
+
+  position: relative;
 }
 
 .center {
   width: 28px;
+
+  position: absolute;
+  bottom: 135px;
+  left: 45%;
 }
 
 .hand {
@@ -35,9 +41,39 @@ html {
 }
 
 .hand-hour {
-
+  position: absolute;
+  bottom: 147px;
+  left: 47%;
+  transform-origin: center bottom;
+  animation: hour 5s infinite linear;
 }
 
-.hand-minute {
+@keyframes hour {
+  0% {
+    transform: rotate(0deg);
+  }
 
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.hand-minute {
+  position: absolute;
+  bottom: 150px;
+  left: 48%;
+  transform: rotate(35deg);
+  transform-origin: center bottom;
+  animation: minute .55s infinite linear;
+}
+
+@keyframes minute {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
