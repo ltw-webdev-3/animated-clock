@@ -41,11 +41,14 @@ html {
 }
 
 .hand-hour {
-
+  position: absolute;
+  bottom: 136px;
+  left: 47%;
 }
 
 .hand-minute {
   position: absolute;
-  bottom: 150px;
-  left: 0;
+  bottom: 135px;
+  left: 55%;
+  transform: rotate(35deg);
 }
