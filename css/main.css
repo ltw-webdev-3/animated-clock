@@ -28,15 +28,15 @@ html {
 .center {
   width: 28px;
   position: absolute;
-  top: calc( 50% - 14px );
-  right: calc( 50% - 14px );
+  top: calc(50% - 14px);
+  right: calc(50% - 14px);
 }
 
 .hand {
   width: 14px;
   position: absolute;
   bottom: 50%;
-  right: calc( 50% - 7px );
+  right: calc(50% - 7px);
 }
 
 .hand-hour {
@@ -50,7 +50,9 @@ html {
 }
 
 @keyframes spin {
+
   0% { transform: rotate(0deg); }
+
   100% { transform: rotate(360deg); }
 }
 
