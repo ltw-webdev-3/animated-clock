@@ -34,11 +34,6 @@ html {
   z-index: 10;
 }
 
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
 .hand {
   width: 14px;
   position: absolute;
@@ -60,4 +55,9 @@ html {
   transform: rotate(40deg);
   animation: spin 1s infinite linear;
   transform-origin: bottom;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
