@@ -35,12 +35,23 @@ html {
 
 .hand {
   width: 14px;
+  position: absolute;
+  bottom: 50%;
+  right: calc( 50% - 7px );
 }
 
 .hand-hour {
-
+  transform-origin: bottom;
+  animation: spin 6s infinite linear;
 }
 
 .hand-minute {
-
+  transform-origin: bottom;
+  animation: spin .5s infinite linear;
 }
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
