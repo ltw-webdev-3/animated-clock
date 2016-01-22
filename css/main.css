@@ -42,14 +42,25 @@ html {
   position: absolute;
   left: 49%;
   top: 32%;
+  transform-origin: bottom;
+  animation: spin 8s infinite;
+}
 
-
+@keyframes spin {
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(360deg)}
 }
 
 .hand-minute {
   position: absolute;
-  left: 56%;
+  left: 49%;
   top: 28%;
   transform: rotate(40deg);
+  transform-origin: bottom;
+  animation: spin 1s infinite;
+}
 
+@keyframes spin {
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(360deg)}
 }
