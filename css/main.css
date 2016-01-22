@@ -38,7 +38,7 @@ html {
   position: absolute;
   bottom: 50%;
   right: calc(50% - 7px);
-  width: 14%;
+  width: 14px;
 }
 
 .hand-hour {
