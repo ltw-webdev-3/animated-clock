@@ -49,6 +49,7 @@ html {
 .hand-minute {
   position: absolute;
   animation: spin .5s linear infinite;
+  
 }
 
 @keyframes spin {
