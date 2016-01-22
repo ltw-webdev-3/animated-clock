@@ -28,6 +28,10 @@ html {
 
 .center {
   width: 28px;
+  position: absolute;
+  left: 47%;
+  top: 43%;
+  z-index: 10;
 }
 
 .hand {
@@ -36,8 +40,13 @@ html {
 
 .hand-hour {
 
+
 }
 
 .hand-minute {
+  position: absolute;
+  left: 56%;
+  top: 28%;
+  transform: rotate(40deg);
 
 }
