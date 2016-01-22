@@ -28,16 +28,28 @@ html {
 
 .center {
   width: 28px;
+  position: absolute;
+  right: 47%;
+  top: 26%;
+  z-index: 10;
 }
 
 .hand {
   width: 14px;
+  position: absolute;
 }
 
 .hand-hour {
+  position: absolute;
+  left: 53%;
+  top: 21%;
+  transform: rotate(40deg);
 
 }
 
 .hand-minute {
+  position: absolute;
+  left: 49%;
+  top: 16%;
 
 }
