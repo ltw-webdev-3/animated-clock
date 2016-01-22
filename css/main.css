@@ -43,7 +43,7 @@ html {
   left: 49.5%;
   top: 20%;
   transform-origin: bottom;
-  animation: spin 12s infinite;
+  animation: spin 2s infinite;
 }
 
 @keyframes spin {
