@@ -55,5 +55,10 @@ html {
 
 
 .hand-minute {
-
+  position: absolute;
+  bottom: 150px;
+  left: 48%;
+  transform: rotate(35deg);
+  transform-origin: center bottom;
+  animation: minute .55s infinite linear;
 }
