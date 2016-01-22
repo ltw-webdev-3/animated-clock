@@ -51,11 +51,9 @@ html {
 }
 
 .hand-minute {
-   position: absolute;
+  position: absolute;
   left: 49.5%;
   top: 16%;
   transform-origin: bottom;
   animation: spin 1s infinite;
-}
-
 }
