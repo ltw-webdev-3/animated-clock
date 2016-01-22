@@ -42,6 +42,7 @@ html {
 .hand {
   width: 14px;
   position: absolute;
+  padding: 0;
 }
 
 .hand-hour {
