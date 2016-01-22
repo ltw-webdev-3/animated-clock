@@ -10,7 +10,6 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
   background-color: #000;
 }
 
@@ -47,8 +46,8 @@ html {
 }
 
 @keyframes spin {
-  0% {transform: rotate(0deg)}
-  100% {transform: rotate(360deg)}
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 .hand-minute {
@@ -58,9 +57,4 @@ html {
   transform: rotate(40deg);
   transform-origin: bottom;
   animation: spin 1s infinite linear;
-}
-
-@keyframes spin {
-  0% {transform: rotate(0deg)}
-  100% {transform: rotate(360deg)}
 }
