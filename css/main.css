@@ -50,10 +50,13 @@ html {
 .hand-minute {
   transform-origin: bottom;
   animation: spin 0.5s infinite;
-  animation-timing-function: linear
+  animation-timing-function: linear;
 }
 
 @keyframes spin {
+
   0% { transform: rotate(0deg); }
+
   100% { transform: rotate(360deg); }
+
 }
