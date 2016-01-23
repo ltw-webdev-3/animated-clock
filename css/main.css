@@ -29,6 +29,9 @@ html {
 
 .center {
   width: 28px;
+  right: 45%;
+  bottom: 45%;
+  position: absolute;
 }
 
 .hand {
