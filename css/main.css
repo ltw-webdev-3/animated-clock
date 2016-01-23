@@ -28,16 +28,28 @@ html {
 
 .center {
   width: 28px;
+  margin-left: 34%;
+  margin-top: 45%;
 }
 
 .hand {
   width: 14px;
+
+
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 .hand-hour {
-
+  transform-origin: right bottom;
+  animation: spin 2s infinite linear;
+    margin-left: 40%;
 }
 
 .hand-minute {
-
+  transform-origin: right bottom;
+  animation: spin 5s infinite linear;
 }
