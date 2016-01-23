@@ -37,6 +37,7 @@ html {
 
 .center {
   width: 28px;
+
 }
 
 .hand {
@@ -44,7 +45,7 @@ html {
 }
 
 .hand-hour {
-  animation: spin 1s linear infinite;
+  position:;
 }
 
 .hand-minute {
