@@ -35,9 +35,13 @@ html {
 }
 
 .hand-hour {
-
+  transform-origin: bottom;
+  animation: spin 6s infinite;
 }
 
 .hand-minute {
+  transform-origin: bottom;
+  animation: spin 0.5s infinite;
+}
 
 }
