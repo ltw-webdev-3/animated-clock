@@ -57,7 +57,7 @@ html {
   transform-origin: right bottom;
   animation: spin 4s infinite linear;
   position: absolute;
-  top: 20%;
+  top: 16%;
   left: 49%;
   z-index: 2;
 }
