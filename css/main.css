@@ -49,12 +49,22 @@ html {
 .hand-minute {
   position: absolute;
   right: calc(50% - 7px);
-  top: 140px;
+  top: 115px;
   animation: spin-minute 1s linear infinite;
   transform-origin: bottom;
 }
 
 @keyframes spin-hour {
+    from{
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+@keyframes spin-minute {
     from{
       transform: rotate(0deg);
     }
