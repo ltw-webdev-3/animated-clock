@@ -43,15 +43,23 @@ html {
 .hand-hour {
   position: relative;
   left: 144px;
-  transform: rotate;
+  animation: spin 10s linear infinite;
+
 }
 
 .hand-minute {
   position: relative;
   left: 126px;
-  transform: rotate;
+  animation: spin 1s linear infinite;
 }
 
-@keyframe .hand-minute {
-
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+    transform-origin: bottom;
+  }
+  to {
+    transform: rotate(360deg);
+    transform-origin: bottom;
+  }
 }
