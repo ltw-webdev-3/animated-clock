@@ -26,6 +26,15 @@ html {
   background: transparent url("../images/clock-face.svg") no-repeat center center;
 }
 
+@keyframes spin {
+  from{
+
+  }
+  to{
+
+  }
+}
+
 .center {
   width: 28px;
 }
