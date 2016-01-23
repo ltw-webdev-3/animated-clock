@@ -28,14 +28,15 @@ html {
 
 .center {
   width: 28px;
-  margin-left: 34%;
-  margin-top: 45%;
+  position: absolute;
+  z-index: 5;
+  top: 26%;
+  left: 49%;
+
 }
 
 .hand {
   width: 14px;
-
-
 }
 
 @keyframes spin {
@@ -46,10 +47,17 @@ html {
 .hand-hour {
   transform-origin: right bottom;
   animation: spin 2s infinite linear;
-    margin-left: 40%;
+  position: absolute;
+  top: 20%;
+  left: 49%;
+  z-index: 2;
 }
 
 .hand-minute {
   transform-origin: right bottom;
-  animation: spin 5s infinite linear;
+  animation: spin 4s infinite linear;
+  position: absolute;
+  top: 20%;
+  left: 49%;
+  z-index: 2;
 }
