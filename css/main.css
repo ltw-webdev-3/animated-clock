@@ -53,21 +53,23 @@ html {
 }
 
 @keyframes spin-hour {
-    from {
-      transform: rotate(0deg);
+
+  from {
+    transform: rotate(0deg);
   }
 
-    to {
-      transform: rotate(360deg);
+  to {
+    transform: rotate(360deg);
   }
 }
 
 @keyframes spin-minute {
-    from {
-      transform: rotate(0deg);
+  
+  from {
+    transform: rotate(0deg);
   }
 
-    to {
-      transform: rotate(360deg);
+  to {
+    transform: rotate(360deg);
   }
 }
