@@ -41,10 +41,9 @@ html {
 .hand-hour {
   position: absolute;
   right: 143px;
-  top: 97px;
-  transform: rotate(15deg);
+  top: 90px;
   transform-origin: bottom;
-  animation: spin .5s infinite;
+  animation: spin 6s infinite;
 }
 
 @keyframes spin {
@@ -55,8 +54,7 @@ html {
 .hand-minute {
   position: absolute;
   right: 143px;
-  top: 69px;
-  animation: pulse 1s linear infinite alternate;
+  top: 65px;
   transform-origin: bottom;
-  animation: spin 1s infinite;
+  animation: spin .5s infinite;
 }
