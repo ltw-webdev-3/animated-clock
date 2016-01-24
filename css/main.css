@@ -45,10 +45,14 @@ html {
   transform-origin: bottom;
   animation: spin 6s infinite;
 }
+
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0%
+    { transform: rotate(0deg); }
+  100%
+    { transform: rotate(360deg); }
 }
+
 .hand-minute {
   position: absolute;
   right: 143px;
