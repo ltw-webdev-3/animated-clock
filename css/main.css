@@ -10,7 +10,6 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
   background-color: #000;
 }
 
@@ -22,7 +21,6 @@ html {
   height: 300px;
   margin: 50px auto;
   width: 300px;
-
   background: transparent url("../images/clock-face.svg") no-repeat center center;
 }
 
@@ -55,21 +53,21 @@ html {
 }
 
 @keyframes spin-hour {
-    from{
+    from {
       transform: rotate(0deg);
-    }
+  }
 
     to {
       transform: rotate(360deg);
-    }
+  }
 }
 
 @keyframes spin-minute {
-    from{
+    from {
       transform: rotate(0deg);
-    }
+  }
 
     to {
       transform: rotate(360deg);
-    }
+  }
 }
