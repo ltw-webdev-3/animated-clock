@@ -47,10 +47,10 @@ html {
   animation: hour 5s infinite linear;
 }
 
-  @keyframes hour {
+@keyframes hour {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-  }
+}
 
 .hand-minute {
   position: absolute;
