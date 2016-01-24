@@ -64,7 +64,7 @@ html {
 }
 
 @keyframes spin-minute {
-  
+
   from {
     transform: rotate(0deg);
   }
