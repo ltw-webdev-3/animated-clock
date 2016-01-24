@@ -44,7 +44,7 @@ html {
   top: 97px;
   transform: rotate(15deg);
   transform-origin: bottom;
-  animation: spin 1s infinite alternate;
+  animation: spin .5s infinite;
 }
 
 @keyframes spin {
@@ -58,5 +58,5 @@ html {
   top: 69px;
   animation: pulse 1s linear infinite alternate;
   transform-origin: bottom;
-  animation: spin 1s infinite alternate;
+  animation: spin 1s infinite;
 }
