@@ -45,5 +45,11 @@ html {
 }
 
 .hand-minute {
+  position: relative;
+  top: 68px;
+  left: 145px;
+  transform-origin: bottom;
+  animation: spin 500ms infinite linear;
+}
 
 }
