@@ -48,7 +48,7 @@ html {
 
 .hand-hour {
   transform-origin: bottom;
-  animation: spin 2s infinite linear;
+  animation: spin 7s infinite linear;
   top: 145px;
   left: 48.5%;
   position: absolute;
@@ -57,7 +57,7 @@ html {
 
 .hand-minute {
   transform-origin: bottom;
-  animation: spin 3s infinite linear;
+  animation: spin 2s infinite linear;
   top: 120px;
   left: 48.5%;
   position: absolute;
