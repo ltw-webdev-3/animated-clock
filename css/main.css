@@ -28,10 +28,17 @@ html {
 
 .center {
   width: 28px;
+  position: absolute;
+  left: 44.2em;
+  top: 11em;
+
 }
 
 .hand {
   width: 14px;
+  position: absolute;
+  left: 44.6em;
+  top: 7em;
 }
 
 .hand-hour {
