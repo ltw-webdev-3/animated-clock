@@ -24,20 +24,30 @@ html {
   width: 300px;
 
   background: transparent url("../images/clock-face.svg") no-repeat center center;
+  position: relative;
 }
 
 .center {
   width: 28px;
+  position: absolute;
+  left: calc(50% - 14px);
+  top: calc(150px - 14px);
 }
 
 .hand {
   width: 14px;
+  position: absolute;
+
 }
 
 .hand-hour {
-
+  position: absolute;
+  left: calc(50% - 14px);
+  top: calc(150px - 14px);
 }
 
 .hand-minute {
-
+  position: absolute;
+  left: calc(50% - 14px);
+  top: calc(150px - 14px);
 }
