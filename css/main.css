@@ -42,9 +42,27 @@ html {
 }
 
 .hand-hour {
-
+  width: 14px;
+  position: absolute;
+  left: 44.6em;
+  top: 7em;
 }
 
 .hand-minute {
+  width: 14px;
+  position: absolute;
+  left: 44.6em;
+  top: 7em;
+  animation: spin 1s infinite alternate;
+}
 
+@keyframes spin {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
