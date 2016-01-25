@@ -27,10 +27,10 @@ html {
 
 .center {
   width: 28px;
-  position: absolute;
+  position: relative;
   align-content: center;
-  top: 26.6%;
-  left: 48.4%;
+  top: 28%;
+  left: 35%;
 }
 
 .hand {
@@ -38,18 +38,18 @@ html {
 }
 
 .hand-hour {
-  position: absolute;
-  top: 28.9%;
-  left: 48.9%;
+  position: relative;
+  top: 42.5%;
+  left: 49%;
   width: 14px;
   animation: spin 5s linear infinite;
   transform-origin: center .10px;
 }
 
 .hand-minute {
-  position: absolute;
-  top: 28%;
-  left: 48.9%;
+  position: relative;
+  top: 50%;
+  left: 44%;
   animation: spin .5s linear infinite;
   transform-origin: center .10px;
 }
