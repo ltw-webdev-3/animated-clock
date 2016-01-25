@@ -47,17 +47,19 @@ html {
 }
 
 .hand-hour {
+  transform-origin: bottom;
   animation: spin 2s infinite linear;
-  top: 27%;
-  left: 47%;
+  top: 145px;
+  left: 48.5%;
   position: absolute;
   z-index: 3;
 }
 
 .hand-minute {
+  transform-origin: bottom;
   animation: spin 3s infinite linear;
-  top: 27%;
-  left: 47%;
+  top: 120px;
+  left: 48.5%;
   position: absolute;
   z-index: 3;
 }
