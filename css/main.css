@@ -43,10 +43,24 @@ html {
   position: absolute;
   left: calc(50% - 7px);
   top: calc(150px - 58px);
+  transform-origin: bottom;
+  animation: spin 6s infinite linear;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 .hand-minute {
   position: absolute;
   left: calc(50% - 7px);
   top: calc(150px - 86px);
+  transform-origin: bottom;
+  animation: spin 500ms infinite linear;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
