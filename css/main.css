@@ -51,7 +51,7 @@ html {
   top: 147px;
   left: 142px;
   animation: rotate 0.5s infinite linear;
-  transform-origin: top;;
+  transform-origin: top;
 }
 
 @keyframes rotate {
