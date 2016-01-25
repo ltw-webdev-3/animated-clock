@@ -37,6 +37,11 @@ html {
 }
 
 .hand-hour {
+  position: absolute;
+  top: 92px;
+  left: 145px;
+  transform-origin: bottom;
+  animation: spin 1s infinite linear;
 }
 
 .hand-minute {
