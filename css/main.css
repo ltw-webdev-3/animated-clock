@@ -43,7 +43,18 @@ html {
 }
 
 .hand-hour {
+  animation: turn 10s linear infinite;
+  transform-origin: center 10px;
 }
 
 .hand-minute {
+
+}
+
+@keyframes turn {
+
+  100% {
+    transform: rotate(360deg);
+  }
+
 }
