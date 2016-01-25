@@ -41,17 +41,17 @@ html {
 .hand-hour {
   position: absolute;
   left: calc(50% - 7px);
-  top: calc(50% - 7px);
+  top: 50%;
   transform-origin: top;
-  animation: spin 1s infinite linear;
+  animation: spin 6s infinite linear;
 }
 
 .hand-minute {
   position: absolute;
   left: calc(50% - 7px);
-  top: calc(150px - 14px);
+  top: 50%;
   transform-origin: top;
-  animation: spin 10s infinite linear;
+  animation: spin 1s infinite linear;
 }
 
 @keyframes spin {
