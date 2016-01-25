@@ -10,7 +10,6 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
   background-color: #000;
 }
 
@@ -24,7 +23,6 @@ html {
   width: 300px;
   background: transparent url("../images/clock-face.svg") no-repeat center center;
 }
-
 
 @keyframes spin {
 
