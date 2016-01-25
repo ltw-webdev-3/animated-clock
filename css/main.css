@@ -35,13 +35,16 @@ html {
 
 .hand {
   width: 14px;
-  position: absolute;
 }
 
 .hand-hour {
   position: absolute;
+  top: 5.5em;
+  left: 8.9em;
 }
 
 .hand-minute {
   position: absolute;
+  left: 8.9em;
+  top: 4.8em;
 }
