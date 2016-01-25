@@ -46,7 +46,10 @@ html {
 }
 
 .hand-hour {
-  position:;
+  transform-origin: bottom;
+  animation: spin 3s linear infinite;
+  right: 47%;
+  top: 30%;
 }
 
 .hand-minute {
