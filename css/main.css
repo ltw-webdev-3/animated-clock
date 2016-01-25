@@ -10,7 +10,6 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
   background-color: #000;
 }
 
@@ -41,10 +40,23 @@ html {
   position: absolute;
   top: 30%;
   left: 47.6%;
+  animation: spin 5s linear infinite;
+  transform-origin: center 57px;
 }
 
 .hand-minute {
   position: absolute;
   top: 24%;
   left: 47.6%;
+  animation: spin .5s linear infinite;
+  transform-origin: center 80px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
