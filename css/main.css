@@ -22,30 +22,29 @@ html {
   height: 300px;
   margin: 50px auto;
   width: 300px;
-
+  position: relative;
   background: transparent url("../images/clock-face.svg") no-repeat center center;
 }
 
 .center {
   width: 28px;
   position: absolute;
-  top: 28%;
-  left: 46.5%;
+  top: 45%;
+  left: 45.3%;
 }
 
 .hand {
   width: 14px;
-  position: relative;
 }
 
 .hand-hour {
   position: absolute;
-  top: 22%;
-  left: 48.3%;
+  top: 30%;
+  left: 47.6%;
 }
 
 .hand-minute {
   position: absolute;
-  top: 18%;
-  left: 48.3%;
+  top: 24%;
+  left: 47.6%;
 }
