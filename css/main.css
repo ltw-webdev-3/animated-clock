@@ -53,5 +53,9 @@ html {
 }
 
 .hand-minute {
+  transform-origin: bottom;
+  animation: spin .5s linear infinite;
+  right: 47%;
+  top: 23%;
 
 }
