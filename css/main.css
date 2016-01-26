@@ -38,11 +38,6 @@ html {
 
 }
 
-.hand {
-  width: 14px;
-
-}
-
 .hand-hour {
   left: 46%;
   top: 20%;
@@ -68,5 +63,6 @@ html {
   }
   100% {
     transform: rotate(360deg);
+
   }
 }
