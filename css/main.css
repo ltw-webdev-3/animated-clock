@@ -38,6 +38,11 @@ html {
 
 }
 
+.hand {
+  width: 14px;
+
+}
+
 .hand-hour {
   left: 46%;
   top: 20%;
