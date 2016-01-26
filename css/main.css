@@ -30,8 +30,8 @@ html {
 .center {
   width: 28px;
   position: absolute;
-  top: 8.5em;
-  left: 8.5em;
+  top: 135px;
+  left: 135px;
 }
 
 .hand {
@@ -44,7 +44,7 @@ html {
   left: 144px;
 
   transform-origin: top;
-  animation: spin 1s infinite linear;
+  animation: spin 2s infinite linear;
 
 }
 
@@ -55,6 +55,9 @@ html {
 
 .hand-minute {
   position: absolute;
-  top: 8.5em;
-  left: 8.5em;
+  top: 144px;
+  left: 144px;
+
+  transform-origin: top;
+  animation: spin 0.5s infinite linear;
 }
