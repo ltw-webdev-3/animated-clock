@@ -55,12 +55,11 @@ html {
 }
 
 @keyframes spin {
-	/* At 0% of the time */
-	0% {
-		transform: rotate(0deg);
+  0% {
+    transform: rotate(0deg);
 	}
-    /* At 100% of the time */
-	100% {
-		transform: rotate(360deg);
+  
+  100% {
+      transform: rotate(360deg);
 	}
 }
