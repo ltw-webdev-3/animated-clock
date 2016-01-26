@@ -47,8 +47,9 @@ html {
 }
 
 @keyframes spin1 {
-0% { transform: rotate(0deg); }
-100% { transform: rotate(360deg); }}
+  0% { transform: rotate (0deg); }
+  100% { transform: rotate (360deg); }
+}
 
 .hand-minute {
   position: absolute;
@@ -59,5 +60,6 @@ html {
 }
 
 @keyframes spin2 {
-0% { transform: rotate(0deg); }
-100% { transform: rotate(4320deg); }}
+  0% { transform: rotate (0deg); }
+  100% { transform: rotate  (4320deg); }
+}
