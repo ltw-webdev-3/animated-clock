@@ -29,8 +29,9 @@ html {
 .center {
   width: 28px;
   position: absolute;
-  top: 80px;
-  left: 100px;
+  right: calc(50% - 14px);
+  top: 24%;
+  transform-origin: center;
 }
 
 .hand {
@@ -38,13 +39,39 @@ html {
 }
 
 .hand-hour {
-  position: relative;
-  top: 80px;
-  left: 143px;
+  position: absolute;
+  right: calc(50% - 7px);
+  top: 140px;
+  animation: spin-hour 12s linear infinite;
+  transform-origin: bottom;
+}
+
+@keyframes spin-hour {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .hand-minute {
-  position: relative;
-  top: 80px;
-  left: 125px;
+  position: absolute;
+  right: calc(50% - 7px);
+  top: 115px;
+  animation: spin-minute 1s linear infinite;
+  transform-origin: bottom;
+}
+
+@keyframes spin-minute {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
