@@ -27,36 +27,52 @@ html {
 }
 
 .center {
-  position: absolute;
   width: 28px;
-  left: 48.5%;
-  top: 25.5%;
-  z-index: 4;
+  position: absolute;
+  right: calc(50% - 14px);
+  top: 28%;
+  transform-origin: center;
 }
 
 .hand {
   width: 14px;
-  position: absolute;
-  left: 49%;
-  top: 27%;
 }
 
 .hand-hour {
-  z-index: 2;
-  transform-origin: top;
-  animation: hr 6s infinite;
+  position: absolute;
+  right: calc(50% - 7px);
+  top: 140px;
+  animation: spin-hour 12s linear infinite;
+  transform-origin: bottom;
 }
-@keyframes hr {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+
+@keyframes spin-hour {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .hand-minute {
-  z-index: 3;
-  transform-origin: top;
-  animation: min 1s infinite;
+  position: absolute;
+  right: calc(50% - 7px);
+  top: 115px;
+  animation: spin-minute 1s linear infinite;
+  transform-origin: bottom;
 }
-@keyframes min {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+
+
+@keyframes spin-minute {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
