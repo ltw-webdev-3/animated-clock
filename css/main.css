@@ -22,7 +22,6 @@ html {
   height: 300px;
   margin: 50px auto;
   width: 300px;
-
   background: transparent url("../images/clock-face.svg") no-repeat center center;
   position: relative;
 }
@@ -47,6 +46,7 @@ html {
   transform-origin: center bottom;
   animation: spin1 30s infinite linear;
 }
+
 @keyframes spin1 {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
@@ -59,6 +59,7 @@ html {
   transform-origin: center bottom;
   animation: spin2 30s infinite linear;
 }
+
 @keyframes spin2 {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(4320deg); }
