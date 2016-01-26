@@ -28,6 +28,7 @@ html {
 
 .center {
   width: 28px;
+  position: absolute;
 }
 
 .hand {
@@ -35,6 +36,7 @@ html {
 }
 
 .hand-hour {
+  position: absolute;
 
 }
 
