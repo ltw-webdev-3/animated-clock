@@ -46,15 +46,13 @@ html {
   animation: spin 6s infinite linear;
 }
 
-}
-
 .hand-minute {
   transform-origin: bottom;
   animation: spin .5s infinite linear;
-
 }
 
 @keyframes spin {
 
-  transform-origin: right bottom;
-  animation: spin 1s infinite alternate;
+  0% {transform-origin: right bottom;}
+  100% {animation: spin 1s infinite alternate;}
+}
