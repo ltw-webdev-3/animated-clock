@@ -41,6 +41,10 @@ html {
 
 .hand-hour {
   position: absolute;
+  left: 40%;
+  top: 40%;
+  transform-origin: bottom;
+  animation: spin 8s infinite linear;
 
 }
 
