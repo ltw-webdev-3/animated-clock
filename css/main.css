@@ -23,15 +23,15 @@ html {
   margin: 50px auto;
   width: 300px;
 
+  position: relative;
   background: transparent url("../images/clock-face.svg") no-repeat center center;
 }
 
 .center {
   width: 28px;
   position: absolute;
-  top: 11.8em;
-  left: 21em;
-
+  right: calc(50% - 14px);
+  top: calc(50% - 14px);
 }
 
 .hand {
