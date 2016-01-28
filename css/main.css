@@ -42,11 +42,13 @@ html {
 }
 
 .hand-hour {
-  animation: spin 5s linear infinite;
+  animation: spin 4s linear infinite;
+  transform-origin: top;
 }
 
 .hand-minute {
   animation: spin 1s linear infinite;
+  transform-origin: top;
 }
 
 @keyframes spin {
