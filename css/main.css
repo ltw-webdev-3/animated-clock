@@ -29,8 +29,8 @@ html {
 .center {
   width: 28px;
   position: absolute;
-  top: 11em;
-  left: 44em;
+  top: 45%;
+  left: 45%;
 }
 
 .hand {
@@ -41,7 +41,7 @@ html {
   position: absolute;
   transform-origin: bottom;
   top: 28%;
-  left: 48.5%;
+  left: 46%;
   animation: spin 8s linear infinite;
   width: 17px;
 }
@@ -50,7 +50,7 @@ html {
   position: absolute;
   transform-origin: bottom;
   top: 16.5%;
-  left: 48.5%;
+  left: 46%;
   animation: spin 2s linear infinite;
   width: 17px; 
 }
