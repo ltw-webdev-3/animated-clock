@@ -50,4 +50,20 @@ html {
   position: absolute;
   left: 50%;
   top: 120px;
+  animation: spin 1s linear infinite;
+  transform-origin: center 85px;
+}
+
+@keyframes spin {
+
+  from {
+    /* We start the rotation at 0 degrees */
+    transform: rotate(0deg);
+
+  }
+
+  to {
+    /* And end the rotation at 360 degrees */
+    transform: rotate(360deg);
+  }
 }
