@@ -58,12 +58,12 @@ html {
 }
 
 @keyframes spin {
-	from {
+	  from {
 		/* We start the rotation at 0 degrees */
-		transform: rotate(0deg);
-	}
+		    transform: rotate(0deg);
+	       }
 	to {
-		/* And end the rotation at 360 degrees */
-		transform: rotate(360deg);
-	}
+		    /* And end the rotation at 360 degrees */
+		    transform: rotate(360deg);
+	  }
 }
