@@ -50,7 +50,7 @@ html {
   position: absolute;
   left: calc(50% - 10px);
   top: 150px;
-  animation: orbit 3s linear infinite;
+  animation: orbit 500ms linear infinite;
   transform-origin: top;
 }
 
