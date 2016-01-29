@@ -39,13 +39,20 @@ html {
   width: 14px;
   position: absolute;
   left: 47.5%;
-  top: 45%;
+  top: 50%;
 }
 
 .hand-hour {
-
+  transform-origin: top;
+  animation: spin 2s infinite linear ;
 }
 
 .hand-minute {
+  transform-origin: top;
+  animation: spin 0.5s infinite linear ;
+}
 
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg);}
 }
