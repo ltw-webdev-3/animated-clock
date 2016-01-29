@@ -27,7 +27,7 @@ html {
 }
 
 .center {
-  width: 17px;
+  width: 28px;
   position: absolute;
   top: 11em;
   left: 44em;
@@ -40,8 +40,8 @@ html {
 .hand-hour {
   position: absolute;
   transform-origin: bottom;
-  top: 27%;
-  left: 48%;
+  top: 28%;
+  left: 48.5%;
   animation: spin 8s linear infinite;
   width: 17px;
 }
@@ -49,8 +49,8 @@ html {
 .hand-minute {
   position: absolute;
   transform-origin: bottom;
-  top: 16%;
-  left: 46%;
+  top: 16.5%;
+  left: 48.5%;
   animation: spin 2s linear infinite;
   width: 17px; 
 }
