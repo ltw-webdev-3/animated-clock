@@ -52,7 +52,7 @@ html {
   top: 16.5%;
   left: 46%;
   animation: spin 2s linear infinite;
-  width: 17px; 
+  width: 17px;
 }
 
 @keyframes spin {
