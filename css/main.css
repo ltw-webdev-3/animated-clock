@@ -44,15 +44,15 @@ html {
 
 .hand-hour {
   transform-origin: top;
-  animation: spin 2s infinite linear ;
+  animation: spin 2s infinite linear;
 }
 
 .hand-minute {
   transform-origin: top;
-  animation: spin 0.5s infinite linear ;
+  animation: spin 0.5s infinite linear;
 }
 
 @keyframes spin {
   0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg);}
+  100% { transform: rotate(360deg); }
 }
