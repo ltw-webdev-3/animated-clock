@@ -22,7 +22,7 @@ html {
   height: 300px;
   margin: 50px auto;
   width: 300px;
-
+  position: relative;
   background: transparent url("../images/clock-face.svg") no-repeat center center;
 }
 
@@ -35,7 +35,9 @@ html {
 }
 
 .hand-hour {
-
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 .hand-minute {
