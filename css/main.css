@@ -42,6 +42,16 @@ html {
   position: absolute;
   left: 49.5%;
   top: 18%;
+
+  transform-origin: bottom;
+  animation: spin 8s infinite linear;
+}
+
+@keyframes spin {
+
+  0% { transform: rotate(0deg); }
+
+  100% { transform: rotate(360deg); }
 }
 
 .hand-minute {
