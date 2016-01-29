@@ -39,7 +39,9 @@ html {
 }
 
 .hand-hour {
-
+  position: absolute;
+  left: 49.5%;
+  top: 18%;
 }
 
 .hand-minute {
