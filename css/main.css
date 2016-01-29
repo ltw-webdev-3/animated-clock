@@ -28,16 +28,45 @@ html {
 
 .center {
   width: 28px;
+  position: absolute;
+  left: 49%;
+  top: 186px;
 }
 
 .hand {
   width: 14px;
+  position: absolute;
+  left: 45%;
+  top: 130px;
+  animation: spin 5s linear infinite;
 }
 
 .hand-hour {
-
+  position: absolute;
+  left: 50%;
+  top: 150px;
+  animation: spin 4s linear infinite;
+  transform-origin: center 55px;
 }
 
 .hand-minute {
+  position: absolute;
+  left: 50%;
+  top: 120px;
+  animation: spin 1s linear infinite;
+  transform-origin: center 85px;
+}
 
+@keyframes spin {
+
+  from {
+    /* We start the rotation at 0 degrees */
+    transform: rotate(0deg);
+
+  }
+
+  to {
+    /* And end the rotation at 360 degrees */
+    transform: rotate(360deg);
+  }
 }
