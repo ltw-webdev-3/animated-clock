@@ -40,15 +40,21 @@ html {
   position: absolute;
   bottom: 50%;
   left: calc(50% - 7px);
+
+  transform-origin: bottom;
 }
 
 .hand-hour {
-  width: 14px;
-  position: absolute;
-  bottom: 50%;
-  left: calc(50% - 7px);
+  animation: spin 10s 1 linear;
 }
 
 .hand-minute {
+  animation: spin 1s 10 linear;
+}
 
+@keyframes spin {
+
+  0% { transform: rotate(0deg); }
+
+  100% { transform: rotate(360deg); }
 }
