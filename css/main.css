@@ -57,7 +57,9 @@ html {
   position: absolute;
   animation: spin 1s linear infinite;
 
-} /* ANIMATION TIME */
+}
+
+/* ANIMATION TIME */
 
 @keyframes spin {
 
