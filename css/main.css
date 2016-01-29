@@ -30,7 +30,7 @@ html {
   width: 28px;
   position: absolute;
   left: 49%;
-  top: 186px
+  top: 186px;
 }
 
 .hand {
@@ -59,13 +59,14 @@ html {
 
 @keyframes spin {
 
-	  from {
-		/* We start the rotation at 0 degrees */
-		    transform: rotate(0deg);
+  from {
+    /* We start the rotation at 0 degrees */
+    transform: rotate(0deg);
 
-	       }
-	to {
-		    /* And end the rotation at 360 degrees */
-		    transform: rotate(360deg);
-	  }
+  }
+
+  to {
+    /* And end the rotation at 360 degrees */
+    transform: rotate(360deg);
+  }
 }
