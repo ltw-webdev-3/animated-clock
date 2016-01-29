@@ -41,10 +41,19 @@ html {
   position: absolute;
   top: 50%;
   left: calc(50% - 7px);
+  transform-origin: center top;
+  animation: spin 5s infinite linear;
 }
 
 .hand-minute {
   position: absolute;
   top: 50%;
   left: calc(50% - 7px);
+  transform-origin: center top;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
