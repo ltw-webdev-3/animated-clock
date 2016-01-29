@@ -28,6 +28,10 @@ html {
 
 .center {
   width: 28px;
+  position: absolute;
+  left: 48.9%;
+  top: 23%;
+  z-index: 10;
 }
 
 .hand {
