@@ -30,13 +30,12 @@ html {
 .center {
   position: absolute;
   width: 28px;
+  left: calc(50% - 10px);
+  top: calc(50% - 10px);
 }
 
 .hand {
-  position: absolute;
   width: 14px;
-  left: calc(50% - 10px);
-  top: calc(50% - 10px);
 }
 
 .hand-hour {
@@ -47,6 +46,9 @@ html {
 }
 
 .hand-minute {
+  position: absolute;
+  left: calc(50% - 10px);
+  top: calc(50% - 10px);
   animation: orbit 3s linear;
 }
 
