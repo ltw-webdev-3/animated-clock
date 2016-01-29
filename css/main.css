@@ -42,7 +42,8 @@ html {
   transform-origin: bottom;
   top: 30%;
   left: 48%;
-  width: 10px;
+  animation: spin 8s linear infinite;
+  width: 14px;
 }
 
 .hand-minute {
@@ -50,6 +51,7 @@ html {
   transform-origin: bottom;
   top: 10%;
   left: 49%;
+  animation: spin 2s linear infinite;
   width: 2%; 
 }
 
