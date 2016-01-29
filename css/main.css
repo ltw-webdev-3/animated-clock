@@ -41,8 +41,20 @@ html {
   position: absolute;
   left: 16.4em;
   top: 10em;
+  animation: orbit 10s linear;
 }
 
 .hand-minute {
+  animation: orbit;
+}
 
+@keyframes orbit {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
