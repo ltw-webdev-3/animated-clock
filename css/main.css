@@ -31,7 +31,7 @@ html {
 .center {
   width: 28px;
 
-  position: absolute;  
+  position: absolute;
   top: calc(50% - 14px);
   right: calc(50% - 14px);
 
@@ -39,7 +39,7 @@ html {
 
 .hand {
   width: 14px;
-  
+
   position: absolute;
   right: calc(50% - 7px);
   bottom: 50%;
@@ -57,7 +57,7 @@ html {
   position: absolute;
   animation: spin 1s linear infinite;
 
-}/*ANIMATION TIME*/
+}/* ANIMATION TIME */
 
 @keyframes spin {
 
