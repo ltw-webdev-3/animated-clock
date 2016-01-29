@@ -40,16 +40,17 @@ html {
 
 .hand-hour {
   position: absolute;
-  left: calc(50% - 10px);
-  top: calc(50% - 10px);
-  animation: orbit 10s linear;
+  left: calc(50% - 5px);
+  top: 110px;
+  animation: orbit 10s linear infinite;
+  transform-origin: center;
 }
 
 .hand-minute {
   position: absolute;
   left: calc(50% - 10px);
   top: calc(50% - 10px);
-  animation: orbit 3s linear;
+  animation: orbit 3s linear infinite;
 }
 
 @keyframes orbit {
