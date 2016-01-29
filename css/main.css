@@ -27,35 +27,35 @@ html {
 }
 
 .center {
-  width: 28px;
+  width: 17px;
   position: absolute;
   top: 11em;
   left: 44em;
 }
 
 .hand {
-  width: 14px;
+  width: 17px;
 } 
 
 .hand-hour {
   position: absolute;
   transform-origin: bottom;
-  top: 30%;
+  top: 27%;
   left: 48%;
   animation: spin 8s linear infinite;
-  width: 14px;
+  width: 17px;
 }
 
 .hand-minute {
   position: absolute;
   transform-origin: bottom;
-  top: 10%;
-  left: 49%;
+  top: 16%;
+  left: 46%;
   animation: spin 2s linear infinite;
-  width: 2%; 
+  width: 17px; 
 }
 
-@keyframes rotate {
+@keyframes spin {
   100% {
     transform: rotate(0deg);
   }
@@ -63,3 +63,4 @@ html {
   to {
     transform: rotate(360deg);
   }
+}
