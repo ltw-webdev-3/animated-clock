@@ -38,7 +38,7 @@ html {
 .hand {
   width: 14px;
 }
- 
+
 .hand-hour {
   animation: spin 7s infinite linear;
   position: absolute;
