@@ -11,17 +11,40 @@ html {
 }
 
 .center {
+  position: relative;
   width: 28px;
+  top: 80px;
+  left: 101px;
 }
 
 .hand {
   width: 14px;
+  top: 70px;
+  position: relative;
 }
 
 .hand-hour {
+  position: relative;
+  left: 144px;
+  animation: spin 10s linear infinite;
 
 }
 
 .hand-minute {
+  position: relative;
+  left: 126px;
+  animation: spin 1s linear infinite;
+}
 
+@keyframes spin {
+
+  from {
+    transform: rotate(0deg);
+    transform-origin: bottom;
+  }
+
+  to {
+    transform: rotate(360deg);
+    transform-origin: bottom;
+  }
 }
