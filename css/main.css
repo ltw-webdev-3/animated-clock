@@ -12,16 +12,39 @@ html {
 
 .center {
   width: 28px;
+  position: absolute;
+  right: 47%;
+  top: 26%;
+  z-index: 10;
 }
 
 .hand {
   width: 14px;
+  position: absolute;
+  padding: 0;
 }
 
 .hand-hour {
-
+  position: absolute;
+  left: 49%;
+  top: 20%;
+  animation: spin 3s infinite linear;
+  transform-origin: bottom;
 }
 
 .hand-minute {
+  position: absolute;
+  left: 49%;
+  top: 16%;
+  transform: rotate(40deg);
+  animation: spin 1s infinite linear;
+  transform-origin: bottom;
+}
+
+@keyframes spin {
+
+  0% { transform: rotate(0deg); }
+
+  100% { transform: rotate(360deg); }
 
 }
